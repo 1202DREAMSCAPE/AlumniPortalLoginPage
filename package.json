@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.1",
+    "laravel-mix": "^6.0.49",
+    "laravel-vite-plugin": "^0.8.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-css": "npx tailwindcss -i ./resources/css/app.css -o ./dist/app.css --watch",
+    "build-js": "npx esbuild resources/js/script.js --outfile=dist/script.js --bundle --watch"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.2",
+    "esbuild": "^0.19.5"
+  },
+  "name": "softeng",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+  "version": "1.0.0",
+  "main": "fiveserver.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
